@@ -53,21 +53,20 @@ Note: I used MySql because i couldn't connect my application to the db after con
 
 # Endpoints
 user endpoints
-* /user/register: User registration
-* /user/resend_verification_mail 
-* /user/verify
-* /user/login
-* /user/login
-* /user/current
-* /user/get/email
+* /user/register:  To register the user.
+* /user/resend_verification_mail:  To resend the otop for email verification.
+* /user/verify:   To verify the user by the otp sent to the user email.
+* /user/login:   To login using your credentials.
+* /user/current:  To get the user of the application when the jwt tokens have been genereated.
+* /user/get/email:  Toe get the user by email.
 
   
 delivery locations endpoints
-* /delivery_location/add
-* /delivery_location/update
-* /delivery_location/get/all
-* /delivery_location/cost_of_delivery/get
-* /delivery_location/delete{id}
+* /delivery_location/add:  To add a new delivery locataion to the existing delivery locations 
+* /delivery_location/update:  To update a delivery location
+* /delivery_location/get/all:  To get all the delivery locations
+* /delivery_location/cost_of_delivery/get:  To get the cost of delivery between a location to another.
+* /delivery_location/delete{id}:  To get delivery location by id
 
 
 # Contributing
